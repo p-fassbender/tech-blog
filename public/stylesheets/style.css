@@ -1,0 +1,17 @@
+a, a:hover {
+    text-decoration: none;
+    color:inherit;
+}
+
+.nav-option {
+	padding: .375rem .75rem;
+}
+
+.title {
+    border-radius: 1.25rem;
+    box-shadow: 5px 4px
+}
+
+.card-header:first-child {
+    border-radius: 0%;
+}
