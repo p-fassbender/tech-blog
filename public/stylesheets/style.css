@@ -15,3 +15,7 @@ a, a:hover {
 .card-header:first-child {
     border-radius: 0%;
 }
+
+.edit-delete-buttons {
+    margin-top: -1.5rem;
+}
