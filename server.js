@@ -22,7 +22,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const sess = {
     secret: 'Super secret secret',
-    cookie: {},
+    cookie: {
+        expires: 300000 //session expires after 5 minutes of inactivity
+    },
     resave: false,
     saveUninitialized: true,
     store: new SequelizeStore({
