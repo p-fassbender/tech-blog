@@ -1,3 +1,20 @@
+{{#if posts.length}}
 {{#each posts as |post|}}
 {{> post-info post }}
 {{/each}}
+{{else}}
+<div class="row m-4">
+    <div class="col-10">
+        <div class="card border-3 border-dark">
+            <a href="/">
+                <div class="card-header bg-dark d-flex justify-content-between">
+                    <h5>There aren't any posts yet!</h5>
+                </div>
+            </a>
+            <div class="card-body bg-secondary">
+                <p class="card-text">Log in, go to the dashboard, and be teh first person to post something!</p>
+            </div>
+        </div>
+    </div>
+</div>
+{{/if}}
