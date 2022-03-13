@@ -1,12 +1,10 @@
-<div>
+<ul class="list-group list-group-flush">
     {{#each this}}
-    <section>
-        <div>
-            {{user.username}} on {{format_date created_at}}
+    <li class="list-group-item bg-transparent text-info">
+        <div class="row d-flex justify-content-between">
+            <p class="col-9">{{comment_text}}</p>
+            <span class="small col-3 d-flex justify-content-end">{{user.username}} on {{format_date created_at}}</span>
         </div>
-        <div>
-            {{comment_text}}
-        </div>
-    </section>
+    </li>
     {{/each}}
-</div>
+</ul>
