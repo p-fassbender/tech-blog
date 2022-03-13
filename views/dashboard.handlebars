@@ -25,15 +25,13 @@
 <div>
     {{#each posts as |post|}}
     {{> post-info post }}
-    <div class="row mx-4 edit-delete-buttons">
+    <div class="row mx-4 edit-button-row">
         <div class="col-10 d-flex align-items-center">
             <a href="/dashboard/edit/{{post.id}}" class="nav-option">Edit</a>
-            <button id="delete-post-btn" class="btn text-info">Delete</button>
         </div>
     </div>
-    {{/each}}
+    {{/each}} 
 </div>
 {{/if}}
 
-<script src="/javascript/delete-post.js"></script>
 <script src="/javascript/add-post.js"></script>

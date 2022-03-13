@@ -15,7 +15,9 @@
                         <label for="post-contents">Post</label>
                         <textarea class="form-control" id="post-contents" name="post-contents" rows="3">{{post.post_contents}}</textarea>
                     </div>
-                    <button type="submit" class="btn btn-outline-info my-1 w-100">Save Post</button>
+                    <button type="submit" class="btn btn-outline-info my-1 w-100">Update</button>
+                    <button class="btn btn-danger my-1 w-100 delete-post-btn">Delete</button>
+
                 </form>
             </div>
         </div>
@@ -25,3 +27,4 @@
 {{> comments post.comments}}
 
 <script src="/javascript/edit-post.js"></script>
+<script src="/javascript/delete-post.js"></script>
