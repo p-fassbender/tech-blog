@@ -53,11 +53,18 @@ There are no formal tests for this project
 ---
 
 ## Media
-insert screenshot here
-insert video here
+![image](https://user-images.githubusercontent.com/36012762/158082523-6f4673d5-b9bb-4730-880a-ac135ffa8dc2.png)
+![image](https://user-images.githubusercontent.com/36012762/158082552-fece86f9-5ffb-4b6f-a162-3ab3b36ffa06.png)
+![image](https://user-images.githubusercontent.com/36012762/158082571-b5b287f5-c2a4-494a-a87e-52e7d6a989b7.png)
+![image](https://user-images.githubusercontent.com/36012762/158082631-335e6a50-159b-49a1-a2fa-5b75b7ccb5cf.png)
+![image](https://user-images.githubusercontent.com/36012762/158082691-6f33e0cf-2fe6-44bb-bb72-5ac14a60b417.png)
+![image](https://user-images.githubusercontent.com/36012762/158082768-bc3f3f18-250d-43d5-acd9-2d7a4cea50d8.png)
 
 The following link is to this project's github repository
 https://github.com/p-fassbender/tech-blog
+
+The following link is to this project's live website
+https://stormy-fjord-69950.herokuapp.com/
 
 ---
 
