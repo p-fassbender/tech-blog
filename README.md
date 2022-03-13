@@ -1,6 +1,6 @@
-# Tech Blog
+# The Tech Blog
 
-The aim of this project was to 
+The aim of this project was to build a CMS-style blog site so that I can publish articles, blog posts, and my thoughts and opinions about tech.
 
 ## Table of Contents
 [Technologies Used](#technologies-used) <br>
@@ -11,11 +11,20 @@ The aim of this project was to
 [Questions](#questions) <br>
 
 ## Technologies Used
-* 
-* 
-* 
+* javascript
+* html
+* bootstrap
+* bootstrap
+* express
+* express handlebars
+* mysql2
+* sequelize
+* dotenv
+* bcrypt
+* express session
+* connect session sequelize
 
-with a focus on
+with a focus on full stack development following the MVC paradigm
 
 ---
 
@@ -27,14 +36,14 @@ Update the **.envExample** file to include your own username and password for my
 Navigate to the root directory in the terminal and log into mysql with **mysql -u &lt;user> -p** and enter your mysql password.
 
 Initialize the database in mysql using the following commands
-* **source db/db.sql**
 * **source db/schema.sql**
-* **source db/seeds.sql**
 
 ---
 
 ## Use
 Navigate to the root directory in the terminal and type **npm start** to run the project
+
+Navigate to http://localhost:3001/ in your browser
 
 ---
 
@@ -48,7 +57,7 @@ insert screenshot here
 insert video here
 
 The following link is to this project's github repository
-https://github.com/p-fassbender/
+https://github.com/p-fassbender/tech-blog
 
 ---
 
