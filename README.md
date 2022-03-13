@@ -14,7 +14,6 @@ The aim of this project was to build a CMS-style blog site so that I can publish
 * javascript
 * html
 * bootstrap
-* bootstrap
 * express
 * express handlebars
 * mysql2
